@@ -35,7 +35,7 @@ def yes_no(question_text):
             print("Please answer 'yes' or 'no' ")
 
 # Main routine go here...
-show_instructions = yes_no ("Have you played this game before? :")
+show_instructions = yes_no ("Have you played this game before?: ")
 
 print(f"You entered '{show_instructions}'")
 # If it enters n or no show instructions
@@ -74,7 +74,6 @@ while round < rounds_playing:
     days_of_the_week_Maori = ["Rahina", "Ratu", "Raapa", "Rapare", "Ramere", "Rahoroi", "Ratapu", "tahi", "rua", "toru", "wha", "rima", "ono", "whitu", "waru", "iwa", "tekau"]
     question = random.choice(days_of_the_week)
     print(question)
-
 
     # Using the index position of the question in one list to find the corresponding
     # Index position of the answer
